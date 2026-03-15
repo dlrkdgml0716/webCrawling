@@ -17,13 +17,6 @@ TARGET_SITES = [
         "base_url": "https://www.wevity.com",
         "category": "게임/소프트웨어",
     },
-    {
-        "name": "링커리어",
-        "label": "링커리어",
-        "url": "https://linkareer.com/list/contest?filterBy=CATEGORY&category=IT_DEVELOPMENT&orderBy=LATEST",
-        "base_url": "https://linkareer.com",
-        "category": "IT개발",
-    },
 ]
 
 DELAY_BETWEEN_PAGES = 2.5

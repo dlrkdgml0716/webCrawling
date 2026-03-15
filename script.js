@@ -50,8 +50,10 @@ function setMeta(data) {
   const soon = allContests.filter(c => {
     const d = parseDeadline(c.deadline, c.dday);
     if (!d) return false;
-    const diff = d - Date.now();
-    return diff > 0 && diff <= 7 * 86_400_000;
+    // 밀리초를 일(day) 단위로 변환하고 올림 처리
+    const days = Math.ceil((d - Date.now()) / 86_400_000);
+    // D-0(0일)부터 D-7(7일)까지를 마감 임박으로 계산
+    return days >= 0 && days <= 7;
   }).length;
   weekCount.textContent = soon;
 
@@ -201,7 +203,6 @@ function getUrgency(date) {
 function getSourceTag(source) {
   const map = {
     '위비티':   { cls: 'tag--wevity',    label: '위비티'   },
-    '링커리어': { cls: 'tag--linkareer', label: '링커리어' },
   };
   return map[source] ?? { cls: 'tag--default', label: source ?? '기타' };
 }
