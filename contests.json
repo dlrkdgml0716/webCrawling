@@ -1,0 +1,42 @@
+{
+  "crawled_at": "2026-03-14T00:00:00+00:00",
+  "total": 4,
+  "contests": [
+    {
+      "name": "2026 공개 SW 개발자 대회",
+      "org": "과학기술정보통신부",
+      "deadline": "D-47 접수중",
+      "dday": "D-47",
+      "url": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=105700",
+      "source": "위비티",
+      "category": "IT/소프트웨어"
+    },
+    {
+      "name": "삼성 주니어 SW 창작대회",
+      "org": "삼성전자",
+      "deadline": "D-62 접수중",
+      "dday": "D-62",
+      "url": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=105701",
+      "source": "위비티",
+      "category": "IT/소프트웨어"
+    },
+    {
+      "name": "카카오 테크 챌린지 2026",
+      "org": "카카오",
+      "deadline": "D-17 접수중",
+      "dday": "D-17",
+      "url": "https://linkareer.com/activity/150001",
+      "source": "링커리어",
+      "category": "IT개발"
+    },
+    {
+      "name": "네이버 AI 해커톤",
+      "org": "네이버",
+      "deadline": "D-27 접수중",
+      "dday": "D-27",
+      "url": "https://linkareer.com/activity/150002",
+      "source": "링커리어",
+      "category": "IT개발"
+    }
+  ]
+}

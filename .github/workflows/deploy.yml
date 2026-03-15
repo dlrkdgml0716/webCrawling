@@ -1,0 +1,97 @@
+# ──────────────────────────────────────────────────────
+# .github/workflows/deploy.yml
+#
+# 동작:
+#   1. 매일 KST 09:00 (UTC 00:00) 자동 실행
+#   2. Python 크롤러로 contests.json 갱신
+#   3. 변경사항을 main 브랜치에 커밋
+#   4. GitHub Pages (gh-pages 브랜치)에 사이트 배포
+#
+# 수동 실행: Actions 탭 → "Run workflow" 버튼
+# ──────────────────────────────────────────────────────
+
+name: Crawl & Deploy
+
+on:
+  schedule:
+    - cron: '0 0 * * *'      # 매일 KST 09:00 (UTC 00:00)
+  workflow_dispatch:          # 수동 실행 허용
+
+permissions:
+  contents: write             # 코드 푸시 권한
+  pages: write                # GitHub Pages 배포 권한
+  id-token: write
+
+jobs:
+  # ── Job 1: 크롤링 ──────────────────────────────────
+  crawl:
+    name: 🕷 크롤링
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Python 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: 의존성 설치
+        run: pip install -r requirements.txt
+
+      - name: Playwright 브라우저 설치 (Chromium만)
+        run: playwright install chromium --with-deps
+
+      - name: 크롤러 실행
+        run: python main.py
+
+      - name: contests.json 변경 확인
+        id: check
+        run: |
+          if git diff --quiet contests.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: 변경사항 커밋 & 푸시
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add contests.json
+          git commit -m "chore: update contests.json [$(date -u +'%Y-%m-%d %H:%M UTC')]"
+          git push
+
+  # ── Job 2: GitHub Pages 배포 ───────────────────────
+  deploy:
+    name: 🚀 배포
+    needs: crawl
+    runs-on: ubuntu-latest
+    if: always()              # 크롤링 결과와 무관하게 항상 배포
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: 저장소 체크아웃 (최신 커밋)
+        uses: actions/checkout@v4
+        with:
+          ref: main           # 크롤러가 커밋한 최신 main 반영
+
+      - name: GitHub Pages 설정
+        uses: actions/configure-pages@v5
+
+      - name: 배포 파일 업로드
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # 배포 대상: 루트의 정적 파일들
+          # (크롤러 소스는 포함하되 .github는 제외됨)
+          path: '.'
+
+      - name: GitHub Pages 배포
+        id: deployment
+        uses: actions/deploy-pages@v4
