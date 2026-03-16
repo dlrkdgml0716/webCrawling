@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-03-15T06:19:10.100546+00:00",
+  "crawled_at": "2026-03-16T01:31:21.427268+00:00",
   "total": 15,
   "contests": [
     {
@@ -32,7 +32,7 @@
     {
       "name": "제8회 교육 공공데이터 AI활용대회",
       "org": "교육부, 17개 시도교육청",
-      "deadline": "D-31\t\t\t\t\t\t\t접수예정",
+      "deadline": "D-31\t\t\t\t\t\t\t접수중",
       "dday": "D-31",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=105614",
       "source": "위비티",
