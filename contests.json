@@ -1,12 +1,12 @@
 {
-  "crawled_at": "2026-03-21T01:17:14.032588+00:00",
+  "crawled_at": "2026-03-22T01:26:19.261304+00:00",
   "total": 15,
   "contests": [
     {
       "name": "​[하나금융그룹] 하나 청년 금융인재 양성 프로젝트 참가자 모집",
       "org": "하나금융그룹",
-      "deadline": "D-17\t\t\t\t\t\t\t접수중",
-      "dday": "D-17",
+      "deadline": "D-16\t\t\t\t\t\t\t접수중",
+      "dday": "D-16",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=105706",
       "source": "위비티",
       "category": "웹/모바일/IT"
@@ -14,8 +14,8 @@
     {
       "name": "LG전자 앰버서더 4기 모집",
       "org": "LG전자",
-      "deadline": "D-4\t\t\t\t\t\t\t마감임박",
-      "dday": "D-4",
+      "deadline": "D-3\t\t\t\t\t\t\t마감임박",
+      "dday": "D-3",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=105622",
       "source": "위비티",
       "category": "웹/모바일/IT"
@@ -23,8 +23,8 @@
     {
       "name": "2026 핵테온 세종 국제 대학생 사이버보안 경진대회&AI·사이버보안 콘퍼런스",
       "org": "세종특별자치시, 국가정보원",
-      "deadline": "D-33\t\t\t\t\t\t\t접수예정",
-      "dday": "D-33",
+      "deadline": "D-32\t\t\t\t\t\t\t접수예정",
+      "dday": "D-32",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=105938",
       "source": "위비티",
       "category": "웹/모바일/IT"
@@ -32,8 +32,8 @@
     {
       "name": "2026고양국제꽃박람회 생성형 AI 공모전 - 블루밍 퓨처",
       "org": "고양국제박람회재단",
-      "deadline": "D-11\t\t\t\t\t\t\t접수중",
-      "dday": "D-11",
+      "deadline": "D-10\t\t\t\t\t\t\t접수중",
+      "dday": "D-10",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=105880",
       "source": "위비티",
       "category": "웹/모바일/IT"
@@ -41,8 +41,8 @@
     {
       "name": "2026 전국민 인공지능(AI) 창작 경진대회",
       "org": "국립광주과학관",
-      "deadline": "D-102\t\t\t\t\t\t\t접수예정",
-      "dday": "D-102",
+      "deadline": "D-101\t\t\t\t\t\t\t접수예정",
+      "dday": "D-101",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=105859",
       "source": "위비티",
       "category": "웹/모바일/IT"
@@ -50,8 +50,8 @@
     {
       "name": "한국데이터정보과학회 & SAS KOREA 제2회 데이터 분석 경진대회",
       "org": "한국데이터정보과학회",
-      "deadline": "D-7\t\t\t\t\t\t\t마감임박",
-      "dday": "D-7",
+      "deadline": "D-6\t\t\t\t\t\t\t마감임박",
+      "dday": "D-6",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=105751",
       "source": "위비티",
       "category": "웹/모바일/IT"
@@ -59,8 +59,8 @@
     {
       "name": "2026 성남시 공공데이터 활용 시각화 경진대회",
       "org": "성남시",
-      "deadline": "D-54\t\t\t\t\t\t\t접수예정",
-      "dday": "D-54",
+      "deadline": "D-53\t\t\t\t\t\t\t접수예정",
+      "dday": "D-53",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=105710",
       "source": "위비티",
       "category": "웹/모바일/IT"
@@ -68,8 +68,8 @@
     {
       "name": "2026년 서울시 빅데이터 활용 경진대회",
       "org": "서울특별시",
-      "deadline": "D-54\t\t\t\t\t\t\t접수중",
-      "dday": "D-54",
+      "deadline": "D-53\t\t\t\t\t\t\t접수중",
+      "dday": "D-53",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=105671",
       "source": "위비티",
       "category": "웹/모바일/IT"
@@ -77,8 +77,8 @@
     {
       "name": "제8회 교육 공공데이터 AI활용대회",
       "org": "교육부, 17개 시도교육청",
-      "deadline": "D-26\t\t\t\t\t\t\t접수중",
-      "dday": "D-26",
+      "deadline": "D-25\t\t\t\t\t\t\t접수중",
+      "dday": "D-25",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=105614",
       "source": "위비티",
       "category": "웹/모바일/IT"
@@ -86,8 +86,8 @@
     {
       "name": "2026 ICT 융합 프로젝트 공모전",
       "org": "(주)엔티렉스",
-      "deadline": "D-11\t\t\t\t\t\t\t접수중",
-      "dday": "D-11",
+      "deadline": "D-10\t\t\t\t\t\t\t접수중",
+      "dday": "D-10",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=104744",
       "source": "위비티",
       "category": "웹/모바일/IT"
@@ -95,7 +95,7 @@
     {
       "name": "AI_TOP_100",
       "org": "카카오임팩트, 브라이언임팩트",
-      "deadline": "D+10\t\t\t\t\t\t\t마감",
+      "deadline": "D+11\t\t\t\t\t\t\t마감",
       "dday": "",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=105377",
       "source": "위비티",
@@ -104,7 +104,7 @@
     {
       "name": "AI 기반 민원 서비스 혁신 시나리오 및 개발 방법 공모전",
       "org": "행정안전부",
-      "deadline": "D+14\t\t\t\t\t\t\t마감",
+      "deadline": "D+15\t\t\t\t\t\t\t마감",
       "dday": "",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=104864",
       "source": "위비티",
@@ -113,7 +113,7 @@
     {
       "name": "메디힐 AI 영상 광고·숏폼 공모전",
       "org": "(주)엘앤피코스메틱 브랜드 “메디힐”",
-      "deadline": "D+22\t\t\t\t\t\t\t마감",
+      "deadline": "D+23\t\t\t\t\t\t\t마감",
       "dday": "",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=104688",
       "source": "위비티",
@@ -122,7 +122,7 @@
     {
       "name": "[청년재단 X 한국바른채용인증원] 2026년 청년 AI 솔루션 챌린지",
       "org": "한국바른채용인증원(주)",
-      "deadline": "D+38\t\t\t\t\t\t\t마감",
+      "deadline": "D+39\t\t\t\t\t\t\t마감",
       "dday": "",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=104562",
       "source": "위비티",
@@ -131,7 +131,7 @@
     {
       "name": "제2회 청소년 AI 아트 공모전",
       "org": "서울AI재단, 전자신문",
-      "deadline": "D+30\t\t\t\t\t\t\t마감",
+      "deadline": "D+31\t\t\t\t\t\t\t마감",
       "dday": "",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=104556",
       "source": "위비티",
