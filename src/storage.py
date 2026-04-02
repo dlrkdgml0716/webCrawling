@@ -3,6 +3,8 @@
 # ─────────────────────────────────────────────
 
 import json
+import re
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -12,11 +14,18 @@ from src.utils import get_logger
 log = get_logger("storage")
 
 
+def _normalize_name(name: str) -> str:
+    """중복 판단용 이름 정규화: 유니코드 정규화, 보이지 않는 문자 제거, 공백 통일, 소문자화."""
+    name = unicodedata.normalize("NFC", name)
+    name = re.sub(r"[\u200b\u200c\u200d\ufeff\u00a0]", "", name)
+    return re.sub(r"\s+", " ", name).strip().lower()
+
+
 def _deduplicate(contests: list[dict[str, Any]]) -> list[dict[str, Any]]:
     seen: set[str] = set()
     result = []
     for c in contests:
-        key = c["name"].strip()
+        key = _normalize_name(c["name"])
         if key not in seen:
             seen.add(key)
             result.append(c)

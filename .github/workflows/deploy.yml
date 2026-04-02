@@ -85,12 +85,15 @@ jobs:
       - name: GitHub Pages 설정
         uses: actions/configure-pages@v5
 
+      - name: 배포 파일 준비
+        run: |
+          mkdir -p dist
+          cp index.html style.css script.js contests.json dist/
+
       - name: 배포 파일 업로드
         uses: actions/upload-pages-artifact@v3
         with:
-          # 배포 대상: 루트의 정적 파일들
-          # (크롤러 소스는 포함하되 .github는 제외됨)
-          path: '.'
+          path: 'dist'
 
       - name: GitHub Pages 배포
         id: deployment

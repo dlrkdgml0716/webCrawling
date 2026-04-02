@@ -44,12 +44,15 @@ _WEVITY_JS = r"""
 
         const url = titleLink.href;
         const org = item.querySelector('.organ')?.textContent.trim() || '';
-        const deadlineText = item.querySelector('.day, .time')?.textContent.trim() || '';
+        const rawDeadline = item.querySelector('.day, .time')?.textContent.trim() || '';
+        // "2026.04.30" → "2026-04-30" 로 정규화, 날짜 형식이 아니면 빈 문자열
+        const dateMatch = rawDeadline.match(/(\d{4})[.\-\/](\d{2})[.\-\/](\d{2})/);
+        const deadline = dateMatch ? `${dateMatch[1]}-${dateMatch[2]}-${dateMatch[3]}` : '';
 
         const ddayMatch = item.textContent.match(/D[-–]\d+/i) || item.textContent.match(/오늘마감/);
         const dday = ddayMatch ? ddayMatch[0] : '';
 
-        results.push({ name, url, org, dday, deadline: deadlineText });
+        results.push({ name, url, org, dday, deadline });
     }
     return results;
 }
@@ -103,11 +106,10 @@ _CONTESTKOREA_JS = r"""
         const hostEl = li.querySelector('ul.host li.icon_1');
         const org = hostEl ? hostEl.textContent.replace(/주최\s*\.\s*/, '').trim() : '';
 
-        // D-day: div.d-day > span.day / span.condition
+        // D-day: div.d-day > span.day (날짜 정보 없으므로 dday만 사용)
         const dayEl = li.querySelector('.d-day span.day');
-        const condEl = li.querySelector('.d-day span.condition');
         const dday = dayEl ? dayEl.textContent.trim() : '';
-        const deadline = [dday, condEl?.textContent.trim()].filter(Boolean).join(' ');
+        const deadline = '';
 
         results.push({ name, url, org, dday, deadline });
     }

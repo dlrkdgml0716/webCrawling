@@ -164,9 +164,10 @@ function createCard(c) {
 
 // ── 날짜 파싱 ───────────────────────────────────────────────
 function parseDeadline(deadline, dday) {
-  // "2026-04-30" 형식
+  // "2026-04-30" 또는 "2026.04.30" 형식
   if (deadline) {
-    const d = new Date(deadline);
+    const normalized = deadline.replace(/\./g, '-');
+    const d = new Date(normalized);
     if (!isNaN(d)) return d;
   }
   // "D-47" 형식으로 역산
