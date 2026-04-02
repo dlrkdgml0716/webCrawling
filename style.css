@@ -293,8 +293,9 @@ a:hover { text-decoration: underline; }
 }
 
 /* 소스별 색상 — 한국 공모전 사이트 */
-.tag--wevity    { background: rgba(99,179,237,.15); color: #63b3ed; border: 1px solid rgba(99,179,237,.35); }
-.tag--default   { background: var(--accent-dim); color: var(--accent); border: 1px solid rgba(88,166,255,.3); }
+.tag--wevity        { background: rgba(99,179,237,.15); color: #63b3ed; border: 1px solid rgba(99,179,237,.35); }
+.tag--contestkorea  { background: rgba(154,230,180,.15); color: #9ae6b4; border: 1px solid rgba(154,230,180,.35); }
+.tag--default       { background: var(--accent-dim); color: var(--accent); border: 1px solid rgba(88,166,255,.3); }
 
 /* D-day 뱃지 */
 .card__dday {

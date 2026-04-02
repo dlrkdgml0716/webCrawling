@@ -12,6 +12,17 @@ from src.utils import get_logger
 log = get_logger("storage")
 
 
+def _deduplicate(contests: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    seen: set[str] = set()
+    result = []
+    for c in contests:
+        key = c["name"].strip()
+        if key not in seen:
+            seen.add(key)
+            result.append(c)
+    return result
+
+
 def save_contests(contests: list[dict[str, Any]], filepath: str = "contests.json") -> None:
     """
     대회 목록을 JSON 파일로 저장합니다.
@@ -24,6 +35,7 @@ def save_contests(contests: list[dict[str, Any]], filepath: str = "contests.json
         "contests": [ {...}, ... ]
     }
     """
+    contests = _deduplicate(contests)
     output = {
         "crawled_at": datetime.now(timezone.utc).isoformat(),
         "total": len(contests),

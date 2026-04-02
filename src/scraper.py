@@ -20,6 +20,8 @@ log = get_logger("scraper")
 def _get_parser(site_name: str):
     if site_name.startswith("위비티"):
         return _parse_wevity
+    if site_name.startswith("콘테스트코리아"):
+        return _parse_contestkorea
     raise ValueError(f"등록된 파서가 없습니다: {site_name!r}")
 
 
@@ -74,6 +76,66 @@ async def _parse_wevity(page: Page, site: dict) -> list[dict[str, Any]]:
             "dday":     item.get("dday", ""),
             "url":      item["url"],
             "source":   site.get("label", "위비티"),
+            "category": site.get("category", "IT"),
+        })
+    return contests
+
+
+# ── 콘테스트코리아 파서 ────────────────────────────────────
+_CONTESTKOREA_JS = r"""
+() => {
+    const results = [];
+    // 메인 목록(div.list_style_2)의 링크만 선택
+    const links = document.querySelectorAll('.list_style_2 .title a[href*="view.php"]');
+
+    for (const link of links) {
+        const li = link.closest('li');
+        if (!li) continue;
+
+        // span.txt에서 이름 추출 (span.category 제외)
+        const txtEl = link.querySelector('span.txt');
+        const name = txtEl ? txtEl.textContent.trim().replace(/\s+/g, ' ') : '';
+        if (name.length < 3) continue;
+
+        const url = link.href;
+
+        // 주최: ul.host > li.icon_1 텍스트에서 "주최 . " 이후 부분
+        const hostEl = li.querySelector('ul.host li.icon_1');
+        const org = hostEl ? hostEl.textContent.replace(/주최\s*\.\s*/, '').trim() : '';
+
+        // D-day: div.d-day > span.day / span.condition
+        const dayEl = li.querySelector('.d-day span.day');
+        const condEl = li.querySelector('.d-day span.condition');
+        const dday = dayEl ? dayEl.textContent.trim() : '';
+        const deadline = [dday, condEl?.textContent.trim()].filter(Boolean).join(' ');
+
+        results.push({ name, url, org, dday, deadline });
+    }
+    return results;
+}
+"""
+
+async def _parse_contestkorea(page: Page, site: dict) -> list[dict[str, Any]]:
+    log.info("콘테스트코리아 [%s]: JS 추출 시작", site.get("category", ""))
+    try:
+        await page.wait_for_function(
+            "document.querySelectorAll('.list_style_2 .title a[href*=\"view.php\"]').length > 0",
+            timeout=15_000,
+        )
+    except Exception:
+        log.warning("콘테스트코리아: 공모전 목록 미발견")
+        return []
+
+    raw: list[dict] = await page.evaluate(_CONTESTKOREA_JS)
+    contests = []
+    for item in raw:
+        contests.append({
+            "name":     item["name"],
+            "org":      item.get("org", ""),
+            "deadline": item.get("deadline", ""),
+            "dday":     item.get("dday", ""),
+            "url":      item["url"],
+            "source":   site.get("label", "콘테스트코리아"),
             "category": site.get("category", "IT"),
         })
     return contests

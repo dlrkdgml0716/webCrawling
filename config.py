@@ -17,6 +17,13 @@ TARGET_SITES = [
         "base_url": "https://www.wevity.com",
         "category": "게임/소프트웨어",
     },
+    {
+        "name": "콘테스트코리아_IT",
+        "label": "콘테스트코리아",
+        "url": "https://www.contestkorea.com/sub/list.php?int_gbn=1&Txt_bcode=030310001",
+        "base_url": "https://www.contestkorea.com",
+        "category": "학문/과학/IT",
+    },
 ]
 
 DELAY_BETWEEN_PAGES = 2.5

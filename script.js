@@ -202,7 +202,8 @@ function getUrgency(date) {
 // ── 소스 태그 ───────────────────────────────────────────────
 function getSourceTag(source) {
   const map = {
-    '위비티':   { cls: 'tag--wevity',    label: '위비티'   },
+    '위비티':        { cls: 'tag--wevity',       label: '위비티'        },
+    '콘테스트코리아': { cls: 'tag--contestkorea', label: '콘테스트코리아' },
   };
   return map[source] ?? { cls: 'tag--default', label: source ?? '기타' };
 }
