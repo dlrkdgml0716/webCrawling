@@ -1,6 +1,6 @@
 {
-  "crawled_at": "2026-04-02T14:55:51.247574+00:00",
-  "total": 39,
+  "crawled_at": "2026-04-03T01:30:34.713198+00:00",
+  "total": 28,
   "contests": [
     {
       "name": "[과학기술정보통신부] 2026 글로벌 피우다프로젝트 (SW개발 경진대회)",
@@ -138,128 +138,20 @@
       "category": "웹/모바일/IT"
     },
     {
-      "name": "2026 생활 속 목재이용 국민참여 공모전 (목재 공감(共感) 키트)",
-      "org": "목재문화진흥회",
-      "deadline": "",
-      "dday": "D-15",
-      "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=21&gbn=view&gp=1&ix=105705",
-      "source": "위비티",
-      "category": "게임/소프트웨어"
-    },
-    {
-      "name": "2026. 독립운동GO! 모바일게임 제작 기획단 모집",
-      "org": "국가보훈부",
-      "deadline": "",
-      "dday": "D-6",
-      "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=21&gbn=view&gp=1&ix=106152",
-      "source": "위비티",
-      "category": "게임/소프트웨어"
-    },
-    {
-      "name": "제2회 올담 데이터 활용 해커톤 모집",
-      "org": "충청남도",
-      "deadline": "",
-      "dday": "D-50",
-      "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=21&gbn=view&gp=1&ix=106069",
-      "source": "위비티",
-      "category": "게임/소프트웨어"
-    },
-    {
-      "name": "Verse8 × YGG Play | Casual Degen Game Hackathon",
-      "org": "Verse8",
-      "deadline": "",
-      "dday": "D-15",
-      "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=21&gbn=view&gp=1&ix=105926",
-      "source": "위비티",
-      "category": "게임/소프트웨어"
-    },
-    {
-      "name": "2026 스마일게이트 인디게임 창작 공모전 (IndieGo)",
-      "org": "스마일게이트 퓨처랩",
-      "deadline": "",
-      "dday": "D-10",
-      "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=21&gbn=view&gp=1&ix=105914",
-      "source": "위비티",
-      "category": "게임/소프트웨어"
-    },
-    {
-      "name": "퀄컴 AI 이노베이터 프로그램 (QAIPI) 2026-APAC",
-      "org": "퀄컴코리아",
-      "deadline": "",
-      "dday": "D-28",
-      "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=21&gbn=view&gp=1&ix=105067",
-      "source": "위비티",
-      "category": "게임/소프트웨어"
-    },
-    {
-      "name": "파주슈필 2026 어린이 보드게임 작가 모집",
-      "org": "코리아보드게임즈",
-      "deadline": "",
-      "dday": "",
-      "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=21&gbn=view&gp=1&ix=105255",
-      "source": "위비티",
-      "category": "게임/소프트웨어"
-    },
-    {
-      "name": "2026 충남글로벌게임센터 인디게임파크 인큐베이팅 사업 인디게임팀 모집",
-      "org": "(재)충남콘텐츠진흥원",
-      "deadline": "",
-      "dday": "",
-      "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=21&gbn=view&gp=1&ix=105066",
-      "source": "위비티",
-      "category": "게임/소프트웨어"
-    },
-    {
-      "name": "2026년 제4회 IT 코딩 발명 아이디어 및 에세이 경진대회",
-      "org": "행복일자리운동본부",
-      "deadline": "",
-      "dday": "",
-      "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=21&gbn=view&gp=1&ix=104997",
-      "source": "위비티",
-      "category": "게임/소프트웨어"
-    },
-    {
-      "name": "제2회 히트 게임즈 보드게임 공모전",
-      "org": "히트게임즈",
-      "deadline": "",
-      "dday": "",
-      "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=21&gbn=view&gp=1&ix=104952",
-      "source": "위비티",
-      "category": "게임/소프트웨어"
-    },
-    {
-      "name": "2026 제6회 청소년 IT경시대회",
-      "org": "한국정보기술진흥원",
-      "deadline": "",
-      "dday": "",
-      "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=21&gbn=view&gp=1&ix=104916",
-      "source": "위비티",
-      "category": "게임/소프트웨어"
-    },
-    {
-      "name": "제1회 메가스터디 게임 개발 공모전",
-      "org": "메가스터디 SW입시센터",
-      "deadline": "",
-      "dday": "",
-      "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=21&gbn=view&gp=1&ix=104817",
-      "source": "위비티",
-      "category": "게임/소프트웨어"
-    },
-    {
-      "name": "제3회 잼S 메이커스 코딩 페스티발",
-      "org": "주식회사 로보그램",
-      "deadline": "",
-      "dday": "",
-      "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=21&gbn=view&gp=1&ix=104221",
-      "source": "위비티",
-      "category": "게임/소프트웨어"
-    },
-    {
       "name": "제1회 실감형콘텐츠(AR/VR) 민간기능경기대회",
       "org": "한국정보기술진흥원",
       "deadline": "",
-      "dday": "D-24",
+      "dday": "D-23",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603230078",
+      "source": "콘테스트코리아",
+      "category": "학문/과학/IT"
+    },
+    {
+      "name": "전국민 AI 경진대회 - 인공지능 루키 대회",
+      "org": "과학기술정보통신부",
+      "deadline": "",
+      "dday": "D-35",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603280004",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
     },
@@ -267,7 +159,7 @@
       "name": "제4회 전국 AI 영어 스피치 경진대회",
       "org": "양천구청",
       "deadline": "",
-      "dday": "D-35",
+      "dday": "D-34",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202604010074",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -276,7 +168,7 @@
       "name": "사람사는세상 노무현재단 '깨어있는 시선: 2026 청년 연구논문 공모전'",
       "org": "사람사는세상 노무현재단",
       "deadline": "",
-      "dday": "D-89",
+      "dday": "D-88",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202604010070",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -285,7 +177,7 @@
       "name": "2026 춘계통합학술대회 대학생 ERP 아이디어 공모전",
       "org": "한국경영정보학회, 영림원소프트랩",
       "deadline": "",
-      "dday": "D-19",
+      "dday": "D-18",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603300061",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -294,7 +186,7 @@
       "name": "2026 관광데이터 활용 공모전(웹ㆍ앱 개발)",
       "org": "한국관광공사",
       "deadline": "",
-      "dday": "D-34",
+      "dday": "D-33",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603300029",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -303,7 +195,7 @@
       "name": "[한국건강형평성학회] 2026년 봄학술대회 발표모집",
       "org": "한국건강형평성학회",
       "deadline": "",
-      "dday": "D-6",
+      "dday": "D-5",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603230010",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -312,7 +204,7 @@
       "name": "아두이노 우노 Q 및 앱 랩 미래 발명 공모전",
       "org": "아두이노, 퀄컴테크날러지스, 엣지 임펄스",
       "deadline": "",
-      "dday": "D-151",
+      "dday": "D-150",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603200013",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -321,7 +213,7 @@
       "name": "2026 「산림행정, AI활용 어디까지」공모전",
       "org": "산림교육원",
       "deadline": "",
-      "dday": "D-18",
+      "dday": "D-17",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603190069",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -330,8 +222,17 @@
       "name": "2026 <도핑방지 논문 공모전>",
       "org": "한국도핑방지위원회",
       "deadline": "",
-      "dday": "D-13",
+      "dday": "D-12",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603190060",
+      "source": "콘테스트코리아",
+      "category": "학문/과학/IT"
+    },
+    {
+      "name": "Verse8 × YGG Play | Casual Degen Game Hackathon",
+      "org": "Verse8 × YGG Play",
+      "deadline": "",
+      "dday": "D-14",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603240052",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
     },
@@ -339,7 +240,7 @@
       "name": "「2026년 평화나눔 청년 및 연구자」논문 공모",
       "org": "평화나눔연구소",
       "deadline": "",
-      "dday": "D-15",
+      "dday": "D-14",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603190008",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -348,7 +249,7 @@
       "name": "2026 해커스 장학생 모집",
       "org": "해커스교육그룹",
       "deadline": "",
-      "dday": "D-59",
+      "dday": "D-58",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202603230074",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
