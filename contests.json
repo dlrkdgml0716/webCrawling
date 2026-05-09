@@ -1,12 +1,21 @@
 {
-  "crawled_at": "2026-05-08T02:15:02.517201+00:00",
-  "total": 27,
+  "crawled_at": "2026-05-09T02:08:46.416370+00:00",
+  "total": 26,
   "contests": [
+    {
+      "name": "[네이버 X 어반플레이] AI BIZ CREATOR SCHOOL 참여자 모집",
+      "org": "네이버 X 어반플레이",
+      "deadline": "",
+      "dday": "D-23",
+      "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=107186",
+      "source": "위비티",
+      "category": "웹/모바일/IT"
+    },
     {
       "name": "한화생명 드림플러스 인베스터 클럽 2기 모집",
       "org": "한화생명 드림플러스",
       "deadline": "",
-      "dday": "D-11",
+      "dday": "D-10",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=107042",
       "source": "위비티",
       "category": "웹/모바일/IT"
@@ -15,7 +24,7 @@
       "name": "제4회 문화체육관광 인공지능·데이터 활용 공모전",
       "org": "문화체육관광부",
       "deadline": "",
-      "dday": "D-50",
+      "dday": "D-49",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=106965",
       "source": "위비티",
       "category": "웹/모바일/IT"
@@ -24,7 +33,7 @@
       "name": "제6기 그린리모델링 대학생기자단 모집",
       "org": "국토교통부, 국토안전관리원",
       "deadline": "",
-      "dday": "D-3",
+      "dday": "D-2",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=106899",
       "source": "위비티",
       "category": "웹/모바일/IT"
@@ -33,7 +42,7 @@
       "name": "[문화체육관광부 x 한국콘텐츠진흥원] 2026 K-콘텐츠 수출 마케터 양성 교육 5기 교육생 모집",
       "org": "문화체육관광부, 한국콘텐츠진흥원",
       "deadline": "",
-      "dday": "D-18",
+      "dday": "D-17",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=106851",
       "source": "위비티",
       "category": "웹/모바일/IT"
@@ -42,7 +51,7 @@
       "name": "2026 현대오토에버 배리어프리 앱 개발 콘테스트 공모전",
       "org": "현대오토에버, 서울사회복지공동모금회",
       "deadline": "",
-      "dday": "D-10",
+      "dday": "D-9",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=106687",
       "source": "위비티",
       "category": "웹/모바일/IT"
@@ -51,7 +60,7 @@
       "name": "2026년 전주MBC K-하이테크 플랫폼 제2회 가상현실 공간 창작 공모전",
       "org": "전주MBC K-하이테크 플랫폼",
       "deadline": "",
-      "dday": "D-68",
+      "dday": "D-67",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=106656",
       "source": "위비티",
       "category": "웹/모바일/IT"
@@ -60,7 +69,7 @@
       "name": "[과학기술정보통신부] 2026 글로벌 피우다프로젝트 (SW개발 경진대회)",
       "org": "과학기술정보통신부",
       "deadline": "",
-      "dday": "D-10",
+      "dday": "D-9",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=106194",
       "source": "위비티",
       "category": "웹/모바일/IT"
@@ -69,7 +78,7 @@
       "name": "[대한민국시도지사협의회] 지방시대 숏폼 영상 공모전",
       "org": "대한민국시도지사협의회",
       "deadline": "",
-      "dday": "D-6",
+      "dday": "D-5",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=106166",
       "source": "위비티",
       "category": "웹/모바일/IT"
@@ -78,8 +87,17 @@
       "name": "2026년 관광데이터 활용 공모전 생성형 AI 활용 관광 프롬프톤 부문",
       "org": "한국관광공사",
       "deadline": "",
-      "dday": "D-13",
+      "dday": "D-12",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=107159",
+      "source": "위비티",
+      "category": "웹/모바일/IT"
+    },
+    {
+      "name": "2026 우리가족 마음잇기 AI챌린지",
+      "org": "과학기술정보통신부",
+      "deadline": "",
+      "dday": "D-23",
+      "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=107129",
       "source": "위비티",
       "category": "웹/모바일/IT"
     },
@@ -87,7 +105,7 @@
       "name": "2026 세종특별자치시 데이터·AI 활용 경진대회",
       "org": "세종특별자치시",
       "deadline": "",
-      "dday": "D-22",
+      "dday": "D-21",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=106884",
       "source": "위비티",
       "category": "웹/모바일/IT"
@@ -96,7 +114,7 @@
       "name": "2026 식의약 공공데이터·AI 분석·활용 경진대회",
       "org": "식품의약품안전처",
       "deadline": "",
-      "dday": "D-22",
+      "dday": "D-21",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=106859",
       "source": "위비티",
       "category": "웹/모바일/IT"
@@ -105,7 +123,7 @@
       "name": "2026 경상남도 빅데이터 활용 공모전",
       "org": "경상남도",
       "deadline": "",
-      "dday": "D-39",
+      "dday": "D-38",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=106718",
       "source": "위비티",
       "category": "웹/모바일/IT"
@@ -114,35 +132,35 @@
       "name": "2026 RecurDyn Simulation 경진대회",
       "org": "펑션베이",
       "deadline": "",
-      "dday": "D-20",
+      "dday": "D-19",
       "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=106531",
       "source": "위비티",
       "category": "웹/모바일/IT"
     },
     {
-      "name": "2026년 국토교통 데이터 활용 경진대회",
-      "org": "국토교통부",
+      "name": "2026 연금행동 신진연구자 학술제 공적연금에 관심있는 신진연구자를 찾습니다",
+      "org": "공적연금강화국민행동",
       "deadline": "",
-      "dday": "D-22",
-      "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=106412",
-      "source": "위비티",
-      "category": "웹/모바일/IT"
-    },
-    {
-      "name": "2026 아두이노 메이커 공모전",
-      "org": "엔티렉스",
-      "deadline": "",
-      "dday": "D-54",
-      "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20&gbn=view&gp=1&ix=106229",
-      "source": "위비티",
-      "category": "웹/모바일/IT"
+      "dday": "D-20",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202605070067",
+      "source": "콘테스트코리아",
+      "category": "학문/과학/IT"
     },
     {
       "name": "한국인공지능올림피아드 (KOAI) 2026",
       "org": "한국정보기술진흥원",
       "deadline": "",
-      "dday": "D-14",
+      "dday": "D-13",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202605020002",
+      "source": "콘테스트코리아",
+      "category": "학문/과학/IT"
+    },
+    {
+      "name": "2026년 건설안전 미래 인재 연구경진대회",
+      "org": "산업안전상생재단, 한국건설안전학회",
+      "deadline": "",
+      "dday": "D-69",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202605080015",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
     },
@@ -150,7 +168,7 @@
       "name": "제24회 임베디드SW경진대회",
       "org": "산업통상부",
       "deadline": "",
-      "dday": "D-33",
+      "dday": "D-32",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202605060112",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -159,7 +177,7 @@
       "name": "2026년 전국 학생 모의국회 법률 제·개정안 공모대회",
       "org": "농촌진흥청",
       "deadline": "",
-      "dday": "D-53",
+      "dday": "D-52",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202604290077",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -168,7 +186,7 @@
       "name": "2026 순천시 인공지능(AI) 영상 공모전",
       "org": "순천시",
       "deadline": "",
-      "dday": "D-23",
+      "dday": "D-22",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202605060032",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -177,7 +195,7 @@
       "name": "모바일 신분증을 활용한 2026 블록체인&AI 해커톤",
       "org": "(사)한국디지털인증협회",
       "deadline": "",
-      "dday": "D-23",
+      "dday": "D-22",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202605040069",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -195,7 +213,7 @@
       "name": "2026 국가안보 논문 · 아이디어 공모전",
       "org": "국가정보원",
       "deadline": "",
-      "dday": "D-84",
+      "dday": "D-83",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202605040005",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -204,7 +222,7 @@
       "name": "2026년 산업안전 미래 인재 연구경진대회",
       "org": "산업안전상생재단, 한국안전학회",
       "deadline": "",
-      "dday": "D-98",
+      "dday": "D-97",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202604300031",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -213,35 +231,8 @@
       "name": "2026년 제2회 국세데이터 활용 논문 경진대회",
       "org": "국세통계센터, 국세통계포럼",
       "deadline": "",
-      "dday": "D-49",
+      "dday": "D-48",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202604230087",
-      "source": "콘테스트코리아",
-      "category": "학문/과학/IT"
-    },
-    {
-      "name": "2026년 제18회 장애인고용패널 학술대회 대학원생 논문경진대회",
-      "org": "한국장애인고용공단",
-      "deadline": "",
-      "dday": "D-52",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202604230080",
-      "source": "콘테스트코리아",
-      "category": "학문/과학/IT"
-    },
-    {
-      "name": "제28회 전국학생통계활용대회",
-      "org": "국가데이터처",
-      "deadline": "",
-      "dday": "D-35",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202604290009",
-      "source": "콘테스트코리아",
-      "category": "학문/과학/IT"
-    },
-    {
-      "name": "손해보험협회 창립 80주년 기념 손해보험 수기·논문 공모전",
-      "org": "손해보험협회",
-      "deadline": "",
-      "dday": "D-21",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202604010038",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
     }
