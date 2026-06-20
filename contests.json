@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-06-19T03:34:32.915395+00:00",
+  "crawled_at": "2026-06-20T02:38:46.682734+00:00",
   "total": 28,
   "contests": [
     {
@@ -141,7 +141,7 @@
       "name": "2026년 연구실 안전 콘텐츠 및 우수사례 공모전",
       "org": "과학기술정보통신부",
       "deadline": "",
-      "dday": "D-42",
+      "dday": "D-41",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202606090018",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -150,8 +150,17 @@
       "name": "2026 하계 청소년 IT학술대회 및 대학생 IT논문경진대회",
       "org": "한국정보기술진흥원",
       "deadline": "",
-      "dday": "D-21",
+      "dday": "D-20",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202604230002",
+      "source": "콘테스트코리아",
+      "category": "학문/과학/IT"
+    },
+    {
+      "name": "2026년 물류데이터·AI 활용 및 분석 아이디어 공모전",
+      "org": "대전정보문화산업진흥원",
+      "deadline": "",
+      "dday": "D-45",
+      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202606150056",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
     },
@@ -159,7 +168,7 @@
       "name": "AIUS 2026 MZ 페르소나 공모전",
       "org": "에이어스",
       "deadline": "",
-      "dday": "D-46",
+      "dday": "D-45",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202606120074",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -168,7 +177,7 @@
       "name": "2026년 국민체육진흥공단 공공데이터 활용 경진대회",
       "org": "국민체육진흥공단",
       "deadline": "",
-      "dday": "D-105",
+      "dday": "D-104",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202606120043",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -177,7 +186,7 @@
       "name": "제4회 개인정보보호 모의재판 경연대회 참가자 사전 모집",
       "org": "개인정보보호위원회",
       "deadline": "",
-      "dday": "D-7",
+      "dday": "D-6",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202606150057",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -186,7 +195,7 @@
       "name": "제2회 항공보안 논문공모전",
       "org": "(사)한국항공보안학회",
       "deadline": "",
-      "dday": "D-3",
+      "dday": "D-2",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202606110057",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -195,7 +204,7 @@
       "name": "제7회 Language Festival 영어 말하기 대회 참가자 모집",
       "org": "평택시국제교류재단",
       "deadline": "",
-      "dday": "D-28",
+      "dday": "D-27",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202606040017",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -204,7 +213,7 @@
       "name": "2026 제3회 전국고교생 미래융합기술 경진대회",
       "org": "한국폴리텍",
       "deadline": "",
-      "dday": "D-77",
+      "dday": "D-76",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202606090084",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -213,7 +222,7 @@
       "name": "2026년도 대기환경 연구 공모전",
       "org": "한국대기환경학회",
       "deadline": "",
-      "dday": "D-18",
+      "dday": "D-17",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202606090081",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -222,7 +231,7 @@
       "name": "2026 자유기업원 독후감 대회",
       "org": "재단법인 자유기업원",
       "deadline": "",
-      "dday": "D-56",
+      "dday": "D-55",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202606150061",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -231,7 +240,7 @@
       "name": "2026 동남권 정보보호 사이버공방전 (SECTOR)",
       "org": "경상남도",
       "deadline": "",
-      "dday": "D-14",
+      "dday": "D-13",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202606150033",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -240,17 +249,8 @@
       "name": "2026년 3D프린팅 활용 우수사례 공모전",
       "org": "과학기술정보통신부",
       "deadline": "",
-      "dday": "D-42",
+      "dday": "D-41",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202606120036",
-      "source": "콘테스트코리아",
-      "category": "학문/과학/IT"
-    },
-    {
-      "name": "[데이콘] 2026 Samsung Collegiate Programming Challenge : AI 챌린지",
-      "org": "삼성전자",
-      "deadline": "",
-      "dday": "D-16",
-      "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202606110015",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
     }
