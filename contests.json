@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-08-29T04:57:43.573946+00:00",
+  "crawled_at": "2026-08-30T02:43:43.686092+00:00",
   "total": 28,
   "contests": [
     {
@@ -141,7 +141,7 @@
       "name": "2026 제7회 청소년 IT경시대회",
       "org": "한국정보기술진흥원",
       "deadline": "",
-      "dday": "D-4",
+      "dday": "D-3",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202608080001",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -159,7 +159,7 @@
       "name": "제25회 대학생 안보토론대회",
       "org": "육군사관학교, 광운대학교",
       "deadline": "",
-      "dday": "D-49",
+      "dday": "D-48",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202608120061",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -168,7 +168,7 @@
       "name": "제2회 탄소중립 토론대회",
       "org": "대구광역시 탄소중립지원센터",
       "deadline": "",
-      "dday": "D-23",
+      "dday": "D-22",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202608260004",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -177,7 +177,7 @@
       "name": "[ZEP School] 교과 콘텐츠 제작 공모전",
       "org": "주식회사 젭",
       "deadline": "",
-      "dday": "D-17",
+      "dday": "D-16",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202608260030",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -186,7 +186,7 @@
       "name": "2026 K-조선 해커톤",
       "org": "산업통상부",
       "deadline": "",
-      "dday": "D-23",
+      "dday": "D-22",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202608240042",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -195,7 +195,7 @@
       "name": "2026 한국유교문화축전 백일장 경연대회",
       "org": "한국유교문화진흥원",
       "deadline": "",
-      "dday": "D-21",
+      "dday": "D-20",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202608240044",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -204,7 +204,7 @@
       "name": "2026년 템플스테이·사찰음식·불교문화 콘텐츠 논문공모전",
       "org": "한국불교문화사업단",
       "deadline": "",
-      "dday": "D-48",
+      "dday": "D-47",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202605110069",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -213,7 +213,7 @@
       "name": "2026 제9회 핀테크 아이디어 공모전",
       "org": "금융위원회",
       "deadline": "",
-      "dday": "D-40",
+      "dday": "D-39",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202608210039",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -222,7 +222,7 @@
       "name": "2026 ICT·SW 여성창업 공모전 참가자 모집",
       "org": "한국IT여성기업인협회",
       "deadline": "",
-      "dday": "D-13",
+      "dday": "D-12",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202608190026",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -231,7 +231,7 @@
       "name": "[데이콘] 딥보이스 범죄 대응을 위한 AI 탐지 모델 경진대회",
       "org": "행정안전부, 한국지능정보사회진흥원",
       "deadline": "",
-      "dday": "D-31",
+      "dday": "D-30",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202608180063",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -240,7 +240,7 @@
       "name": "제5회 세명컴퓨터고 SW 아이디어 공모전",
       "org": "세명컴퓨터고등학교",
       "deadline": "",
-      "dday": "D-32",
+      "dday": "D-31",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202608180048",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
@@ -249,7 +249,7 @@
       "name": "2026 AI·디지털 네이티브 토론대회",
       "org": "과학기술정보통신부",
       "deadline": "",
-      "dday": "D-54",
+      "dday": "D-53",
       "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202608180058",
       "source": "콘테스트코리아",
       "category": "학문/과학/IT"
